@@ -3,15 +3,21 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Mukta', sans-serif;
+    background-color: #ffeeed;
 }
 
-input {
+input, textarea {
     border-top: none;
     border-right: none;
     border-bottom: 1px solid lightgray;
     border-left: none;
     outline: none;
     width: 50%;
+}
+
+select {
+    border-radius: 10px;
+    outline: none;
 }
 
 button {
@@ -26,14 +32,6 @@ button {
 
 label, select, option, button, .pageTwo {
     font-weight: bold;
-}
-
-textarea {
-    width: 500px;
-    border-radius: 15px;
-    border: 1px solid lightgray;
-    padding: 20px;
-    outline: none;
 }
 
 /* COMBINED CSS */
@@ -65,6 +63,10 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
+}
+
+.headerTitle, .headerBody, .required, .red, .checkboxCon, .checkbox, label, input, select, option, textarea {
+    background-color: white;
 }
 
 .red {
@@ -114,11 +116,11 @@ textarea {
 }
 
 .formMed {
-    height: 160px;
+    height: 180px;
 }
 
 .formLong {
-    height: 250px;
+    height: 260px;
 }
 
 /* CHECKBOX */
@@ -145,24 +147,17 @@ textarea {
 
 .footerNDA {
     font-style: italic;
-    font-size: 13px;
+    font-size: 14px;
+}
+
+.reminder {
+    background-color: transparent;
 }
 
 /* PAGE 2 */
 .pageTwo {
     height: 45vw;
     width: 100%;
-    background-color: red;
-    color: white;
+    color: red;
     font-size: 50px;
-}
-
-.register {
-    height: 40px;
-    width: 100px;
-    color: white;
-    background-color: red;
-    border: 2px solid white;
-    border-radius: 10px;
-    outline: none;
 }
