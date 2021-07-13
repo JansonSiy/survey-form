@@ -1,32 +1,176 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    font-family: 'Mukta', sans-serif;
 }
 
-.flexStyle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+label {
+    font-weight: bold;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    width: 50%;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    outline: none;
+}
+
+select, option, button {
+    font-weight: bold;
+}
+
+textarea {
+    width: 800px;
+    padding: 20px;
 }
 
 .main {
+    display: flex;
     flex-direction: column;
-    /* border-style: solid;
-    border-color: red; */
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.design {
+    background-image: url(background.jpeg);
+    background-position: center;
+    background-size: contain;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 160px;
+    width: 50%;
+    margin-bottom: 15px;
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     background-color: white;
-    border: 1.5px solid lightgray;
-    border-radius: 5px;
-    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 130px;
     width: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.titleDesign {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+}
+
+.titleHeader {
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+.titleBody {
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.alert {
+    color: red;
+    font-size: 15px;
+    padding: 0px 0px 10px 30px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 100px;
+    width: 48%;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.formMed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 160px;
+    width: 48%;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.formLong {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 350px;
+    width: 48%;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.checkboxCon {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    height: 270px;
+    /* border-style: solid;
+    border-color: red; */
+}
+
+.checkbox {
+    height: 30px;
+    width: 270px;
+    /* border-style: solid;
+    border-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    /* background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px; */
+    height: 280px;
+    width: 50%;
+}
+
+.red {
+    color: red;
+}
+
+.footerNDA {
+    font-style: italic;
+    font-size: 14px;
 }
