@@ -13,11 +13,11 @@
     <main class="main">
         <section class="design"></section>
 
-        <section class="title">
-            <div class="titleDesign"></div>
-            <h2 class="titleHeader">Contact Tracing Form</h2>
-            <p class="titleBody">Hi there! Please answer a few questions to help us maintain a safe environment for everyone.</p>
-            <span class="alert">* Required</span>
+        <section class="header">
+            <div class="headerDes"></div>
+            <h2 class="headerTitle">Contact Tracing Form</h2>
+            <p class="headerBody">Hi there! Please answer a few questions to help us maintain a safe environment for everyone.</p>
+            <span class="required red">* Required</span>
         </section>
 
         <section class="form">
@@ -41,7 +41,7 @@
         </section>
 
         <section class="form">
-            <label>Please input your Age: <span class="red">*</span></label>
+            <label>Please input your age: <span class="red">*</span></label>
             <input type="number" min="18" max="65" value="Your answer">
         </section>
 
@@ -50,12 +50,12 @@
             <select>
                 <option>Male</option>
                 <option>Female</option>
+                <option>Others</option>
             </select>
         </section>
         
         <section class="formLong">
             <label>Have you been experiencing any of this symptoms?: (Check all that apply) <span class="red">*</span></label>
-            
             <div class="checkboxCon">
                 <div class="checkbox">
                     <input type="checkbox">
@@ -71,7 +71,7 @@
                 </div>
                 <div class="checkbox">
                     <input type="checkbox">
-                    <label>Loss of taste or smell</label>
+                    <label>Loss of taste/smell</label>
                 </div>
                 <div class="checkbox">
                     <input type="checkbox">
@@ -91,16 +91,18 @@
 
         <section class="footer">
             <button type="submit" onclick="exit()">Submit</button>
-            <p class="footerNDA"> I herby authorize Janelle & Alvin's Wedding to collect and process
+            <p class="footerNDA">
+                I herby authorize Janelle & Alvin's Wedding to collect and process
                 the data indicated herin for the purpose of contact tracing
                 effecting control of the COVID-19 transmission. I understand
                 that my personal information is protected by RA 10173 or the
                 Data Privacy Act of 2012 and that this form will be destroyed
                 after 30 days from the date of accomplishment, following the
                 National Archives of the Philippines protocol.<br>
-            <br>Please click on SUBMIT to forward your responses.<br>
-            <span class="red">Never submit passwords through this form.</span></p>
+                <br>Please click on SUBMIT to forward your responses.<br>
+                <span class="red">Never submit passwords through this form.</span></p>
         </section>
+
     </main>
 </body>
 </html>
