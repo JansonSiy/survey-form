@@ -30,6 +30,10 @@ button {
     outline: none;
 }
 
+button:hover {
+    color: lightgrey;
+}
+
 label, select, option, button, .pageTwo {
     font-weight: bold;
 }

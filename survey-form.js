@@ -1,5 +1,5 @@
 function exit() {
-    return alert ('Sucess: Submit another?');
+    return alert ('Success: Submit another?');
     // return window.location.replace('survey-form-page-2.html');
 };
 
